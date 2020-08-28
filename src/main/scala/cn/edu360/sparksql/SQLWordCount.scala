@@ -30,7 +30,7 @@ object SQLWordCount {
     // 注册视图
     words.createTempView("v_wc")
 
-    // 执行SQL
+    // 执行SQL（Transformation）
     val result: DataFrame = session.sql("select value, count(*) counts from v_wc group by value order by counts desc")
 
     // 执行Action
