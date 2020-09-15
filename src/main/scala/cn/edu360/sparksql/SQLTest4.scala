@@ -38,16 +38,14 @@ object SQLTest4 {
       .csv("F:/codedata/spark/sqltest4/table4.csv")
     df2.createTempView("v_df2")
 
-
-//    df1.show()
-//    df2.show()
+    //df1.show()
+    //df2.show()
     //执行sql
     val result: DataFrame = session.sql("SELECT sum(v) FROM (SELECT v_df1.id, 1 + 2 + v_df1.value AS v FROM v_df1 JOIN v_df2 WHERE v_df1.id = v_df2.id AND v_df1.did = v_df1.cid + 1 AND v_df2.id > 5) test")
 
     result.show()
 
     result.explain(true)
-
 
     session.stop()
   }
