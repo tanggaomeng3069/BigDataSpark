@@ -17,6 +17,8 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <spark.version>2.2.0</spark.version>
+    <jedis.version>3.3.0</jedis.version>
+    <mysql.version>5.1.38</mysql.version>
   </properties>
 
   <dependencies>
@@ -54,7 +56,15 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.38</version>
+      <version>${mysql.version}</version>
+    </dependency>
+    <!-- jedis的连接驱动依赖 -->
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+      <version>${jedis.version}</version>
+      <type>jar</type>
+      <scope>compile</scope>
     </dependency>
 
   </dependencies>
