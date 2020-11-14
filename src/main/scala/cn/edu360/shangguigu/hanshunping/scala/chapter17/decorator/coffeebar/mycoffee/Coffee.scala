@@ -1,6 +1,6 @@
 package cn.edu360.shangguigu.hanshunping.scala.chapter17.decorator.coffeebar.mycoffee
 
-import com.atguigu.chapter17.decorator.coffeebar.Drink
+import cn.edu360.shangguigu.hanshunping.scala.chapter17.decorator.coffeebar.Drink
 
 
 //在Drink 和  单品咖啡，我做了一个缓冲层

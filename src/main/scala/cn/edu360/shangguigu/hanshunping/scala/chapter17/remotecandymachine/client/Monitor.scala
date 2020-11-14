@@ -1,6 +1,6 @@
 package cn.edu360.shangguigu.hanshunping.scala.chapter17.remotecandymachine.client
 
-import com.atguigu.chapter17.remotecandymachine.server.CandyMachineRemote
+import cn.edu360.shangguigu.hanshunping.scala.chapter17.remotecandymachine.server.CandyMachineRemote
 
 import scala.collection.mutable.ListBuffer
 

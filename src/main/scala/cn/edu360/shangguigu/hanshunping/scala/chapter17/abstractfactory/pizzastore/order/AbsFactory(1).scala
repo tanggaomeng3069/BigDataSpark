@@ -1,6 +1,6 @@
 package cn.edu360.shangguigu.hanshunping.scala.chapter17.abstractfactory.pizzastore.order
 
-import com.atguigu.chapter17.abstractfactory.pizzastore.pizza.Pizza
+import cn.edu360.shangguigu.hanshunping.scala.chapter17.abstractfactory.pizzastore.pizza.Pizza
 
 trait AbsFactory {
 

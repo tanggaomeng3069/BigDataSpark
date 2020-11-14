@@ -1,6 +1,6 @@
 package cn.edu360.shangguigu.hanshunping.scala.chapter15.customercrm.service
 
-import com.atguigu.chapter15.customercrm.bean.Customer
+import cn.edu360.shangguigu.hanshunping.scala.chapter15.customercrm.bean.Customer
 
 import scala.collection.mutable.ArrayBuffer
 import util.control.Breaks._

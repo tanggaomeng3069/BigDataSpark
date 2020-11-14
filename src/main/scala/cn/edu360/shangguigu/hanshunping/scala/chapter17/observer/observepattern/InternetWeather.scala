@@ -1,6 +1,6 @@
 package cn.edu360.shangguigu.hanshunping.scala.chapter17.observer.observepattern
 
-import com.atguigu.chapter17.observer.localinternetobserver.WeatherData
+import cn.edu360.shangguigu.hanshunping.scala.chapter17.observer.localinternetobserver.WeatherData
 
 object InternetWeather {
   def main(args: Array[String]): Unit = {

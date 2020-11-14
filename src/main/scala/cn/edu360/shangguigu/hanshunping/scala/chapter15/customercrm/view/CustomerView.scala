@@ -1,7 +1,7 @@
 package cn.edu360.shangguigu.hanshunping.scala.chapter15.customercrm.view
 
-import com.atguigu.chapter15.customercrm.bean.Customer
-import com.atguigu.chapter15.customercrm.service.CustomerService
+import cn.edu360.shangguigu.hanshunping.scala.chapter15.customercrm.bean.Customer
+import cn.edu360.shangguigu.hanshunping.scala.chapter15.customercrm.service.CustomerService
 
 import scala.io.StdIn
 import util.control.Breaks._

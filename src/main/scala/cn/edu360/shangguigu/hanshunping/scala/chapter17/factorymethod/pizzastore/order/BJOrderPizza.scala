@@ -1,6 +1,6 @@
 package cn.edu360.shangguigu.hanshunping.scala.chapter17.factorymethod.pizzastore.order
 
-import com.atguigu.chapter17.factorymethod.pizzastore.pizza.{BJCheesePizza, BJPepperPizza, Pizza}
+import cn.edu360.shangguigu.hanshunping.scala.chapter17.factorymethod.pizzastore.pizza.{BJCheesePizza, BJPepperPizza, Pizza}
 
 class BJOrderPizza extends OrderPizza {
 

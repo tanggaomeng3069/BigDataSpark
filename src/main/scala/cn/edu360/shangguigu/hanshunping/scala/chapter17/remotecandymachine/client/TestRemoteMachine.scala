@@ -2,7 +2,7 @@ package cn.edu360.shangguigu.hanshunping.scala.chapter17.remotecandymachine.clie
 
 import java.rmi.Naming
 
-import com.atguigu.chapter17.remotecandymachine.server.CandyMachineRemote
+import cn.edu360.shangguigu.hanshunping.scala.chapter17.remotecandymachine.server.CandyMachineRemote
 
 
 

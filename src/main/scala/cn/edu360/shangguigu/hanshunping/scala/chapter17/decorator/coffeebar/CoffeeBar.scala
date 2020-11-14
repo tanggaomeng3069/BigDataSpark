@@ -1,7 +1,7 @@
 package cn.edu360.shangguigu.hanshunping.scala.chapter17.decorator.coffeebar
 
-import com.atguigu.chapter17.decorator.coffeebar.mycoffee.{DeCaf, LongBlack}
-import com.atguigu.chapter17.decorator.coffeebar.mydecorator.{Chocolate, Milk, NewMilk}
+import cn.edu360.shangguigu.hanshunping.scala.chapter17.decorator.coffeebar.mycoffee.{DeCaf, LongBlack}
+import cn.edu360.shangguigu.hanshunping.scala.chapter17.decorator.coffeebar.mydecorator.{Chocolate, Milk, NewMilk}
 
 
 object CoffeeBar {

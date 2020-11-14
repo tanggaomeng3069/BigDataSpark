@@ -1,6 +1,6 @@
 package cn.edu360.shangguigu.hanshunping.scala.chapter17.simplefactory.pizzastore.order
 
-import com.atguigu.chapter17.simplefactory.pizzastore.pizza.{CheesePizza, GreekPizza, PepperPizza, Pizza}
+import cn.edu360.shangguigu.hanshunping.scala.chapter17.simplefactory.pizzastore.pizza.{CheesePizza, GreekPizza, PepperPizza, Pizza}
 
 object SimpleFactory {
 

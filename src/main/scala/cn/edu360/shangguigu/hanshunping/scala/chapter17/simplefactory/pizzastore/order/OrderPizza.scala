@@ -1,6 +1,6 @@
 package cn.edu360.shangguigu.hanshunping.scala.chapter17.simplefactory.pizzastore.order
 
-import com.atguigu.chapter17.simplefactory.pizzastore.pizza.{GreekPizza, PepperPizza, Pizza}
+import cn.edu360.shangguigu.hanshunping.scala.chapter17.simplefactory.pizzastore.pizza.{GreekPizza, PepperPizza, Pizza}
 
 import scala.io.StdIn
 import util.control.Breaks._

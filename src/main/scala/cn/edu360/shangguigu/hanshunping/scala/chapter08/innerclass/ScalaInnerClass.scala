@@ -1,6 +1,6 @@
 package cn.edu360.shangguigu.hanshunping.scala.chapter08.innerclass
 
-import com.atguigu.chapter08.innerclass
+import cn.edu360.shangguigu.hanshunping.scala.chapter08.innerclass
 
 object ScalaInnerClassDemo {
   def main(args: Array[String]): Unit = {

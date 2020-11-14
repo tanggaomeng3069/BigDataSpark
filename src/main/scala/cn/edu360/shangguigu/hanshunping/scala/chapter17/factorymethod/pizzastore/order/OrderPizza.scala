@@ -1,7 +1,7 @@
 package cn.edu360.shangguigu.hanshunping.scala.chapter17.factorymethod.pizzastore.order
 
-import com.atguigu.chapter17.factorymethod.pizzastore.pizza
-import com.atguigu.chapter17.factorymethod.pizzastore.pizza.Pizza
+import cn.edu360.shangguigu.hanshunping.scala.chapter17.factorymethod.pizzastore.pizza
+import cn.edu360.shangguigu.hanshunping.scala.chapter17.factorymethod.pizzastore.pizza.Pizza
 
 import scala.io.StdIn
 import scala.util.control.Breaks._
