@@ -8,11 +8,11 @@ import org.apache.spark.{SparkConf, SparkContext}
   * Date: 2020/11/14 10:14
   * Describe:
   */
-object spark01_RDD_Memory {
+object Spark01_RDD_Memory {
 
     def main(args: Array[String]): Unit = {
 
-        val sparkConf: SparkConf = new SparkConf().setMaster("local[*]").setAppName("spark01_RDD_Memory")
+        val sparkConf: SparkConf = new SparkConf().setMaster("local[*]").setAppName("Spark01_RDD_Memory")
         val sc = new SparkContext(sparkConf)
 
         // TODO Spark从内存中创建RDD
