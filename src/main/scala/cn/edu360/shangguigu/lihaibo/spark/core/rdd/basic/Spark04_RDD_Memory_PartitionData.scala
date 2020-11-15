@@ -1,4 +1,4 @@
-package cn.edu360.shangguigu.lihaibo.spark.core.rdd
+package cn.edu360.shangguigu.lihaibo.spark.core.rdd.basic
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}

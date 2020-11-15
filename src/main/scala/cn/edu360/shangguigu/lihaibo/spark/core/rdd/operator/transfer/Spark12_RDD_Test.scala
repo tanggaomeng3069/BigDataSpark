@@ -1,4 +1,4 @@
-package cn.edu360.shangguigu.lihaibo.spark.core.rdd
+package cn.edu360.shangguigu.lihaibo.spark.core.rdd.operator.transfer
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
@@ -17,7 +17,7 @@ object Spark12_RDD_Test {
 
         // TODO Spark - RDD 算子（方法）
         //  从服务器日志数据apache.log中获取用户请求URL资源路径
-        
+
         val fileRDD: RDD[String] = sc.textFile("input/apache.log")
         val urlRDD: RDD[String] = fileRDD.map(line => {
             val datas: Array[String] = line.split(" ")

@@ -1,4 +1,4 @@
-package cn.edu360.shangguigu.lihaibo.spark.core.rdd
+package cn.edu360.shangguigu.lihaibo.spark.core.rdd.basic
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
@@ -65,7 +65,7 @@ object Spark08_RDD_File_PartitionData2 {
         val fileRDD3: RDD[String] = sc.textFile("input1", 3)
         fileRDD3.saveAsTextFile("output3")
 
-        
+
         sc.stop()
 
     }

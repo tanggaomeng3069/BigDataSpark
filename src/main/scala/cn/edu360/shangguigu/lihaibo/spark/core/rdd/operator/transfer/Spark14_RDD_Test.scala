@@ -1,4 +1,4 @@
-package cn.edu360.shangguigu.lihaibo.spark.core.rdd
+package cn.edu360.shangguigu.lihaibo.spark.core.rdd.operator.transfer
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
@@ -8,10 +8,10 @@ import org.apache.spark.{SparkConf, SparkContext}
   * Date: 2020/11/14 16:21
   * Describe:
   */
-object Spark13_RDD_Operstor3 {
+object Spark14_RDD_Test {
     def main(args: Array[String]): Unit = {
 
-        val sparkConf: SparkConf = new SparkConf().setMaster("local[*]").setAppName("Spark13_RDD_Operstor3")
+        val sparkConf: SparkConf = new SparkConf().setMaster("local[*]").setAppName("Spark14_RDD_Test")
         val sc = new SparkContext(sparkConf)
 
         // TODO Spark - RDD 算子（方法）
@@ -24,25 +24,14 @@ object Spark13_RDD_Operstor3 {
         // mapPartitions 一次性获取分区的所有数据，那么可以执行迭代器集合的所有操作
         //               过滤，max，sum
 
-        // 2个分区 => 12,34
-        val dataRDD: RDD[Int] = sc.makeRDD(List(1,2,3,4), 2)
+        // 2个分区 => 143,256
+        val dataRDD: RDD[Int] = sc.makeRDD(List(1,4,3,2,5,6), 2)
 
-//        val rdd: RDD[Int] = dataRDD.mapPartitions(iter => {
-//            iter.foreach(println)
-//            iter
-//        })
-//        rdd.collect()
-
-//        val rdd: RDD[Int] = dataRDD.mapPartitions(iter => {
-//            iter.map(_ * 2)
-//        })
-//        println(rdd.collect().mkString(","))
-
+        // 获取每个分区的最大值
         val rdd: RDD[Int] = dataRDD.mapPartitions(iter => {
-            iter.filter(_ % 2 == 0)
+            List(iter.max).iterator
         })
         println(rdd.collect().mkString(","))
-
 
         sc.stop()
 
