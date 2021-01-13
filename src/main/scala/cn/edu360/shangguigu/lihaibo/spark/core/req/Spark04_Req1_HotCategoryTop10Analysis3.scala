@@ -11,7 +11,7 @@ import scala.collection.mutable
   * Date: 2021/1/13 9:31
   * Describe:
   */
-object Spark01_Req1_HotCategoryTop10Analysis3 {
+object Spark04_Req1_HotCategoryTop10Analysis3 {
 
     def main(args: Array[String]): Unit = {
 
@@ -139,7 +139,6 @@ object Spark01_Req1_HotCategoryTop10Analysis3 {
                     map1.update(cid, category)
                 }
             }
-
         }
 
         // TODO 返回累加器的值
@@ -147,6 +146,5 @@ object Spark01_Req1_HotCategoryTop10Analysis3 {
             hcMap
         }
     }
-
 
 }

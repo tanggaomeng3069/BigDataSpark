@@ -11,7 +11,7 @@ import scala.collection.mutable
   * Date: 2021/1/13 9:31
   * Describe:
   */
-object Spark01_Req1_HotCategoryTop10Analysis2 {
+object Spark03_Req1_HotCategoryTop10Analysis2 {
 
     def main(args: Array[String]): Unit = {
 
