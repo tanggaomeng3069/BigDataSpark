@@ -43,7 +43,7 @@ object Spark63_Acc3 {
     }
 
     // TODO 自定义累加器
-    //  1. 继承
+    //  1. 继承 AccumulatorV2
 
     class MyWordCountAccumulator extends AccumulatorV2[String, mutable.Map[String, Int]] {
 
