@@ -66,6 +66,17 @@
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
+        <!-- Spark连接Hive驱动依赖 -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-hive_2.11</artifactId>
+            <version>${spark.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-exec</artifactId>
+            <version>3.1.0</version>
+        </dependency>
 
     </dependencies>
     <!-- scala打包引入依赖包 -->
