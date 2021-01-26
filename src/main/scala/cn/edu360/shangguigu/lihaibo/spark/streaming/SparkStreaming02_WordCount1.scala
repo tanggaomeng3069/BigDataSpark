@@ -9,7 +9,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
   * Date: 2021/1/25 20:00
   * Describe:
   */
-object SparkStreaming01_WordCount {
+object SparkStreaming02_WordCount1 {
 
     def main(args: Array[String]): Unit = {
 
@@ -17,7 +17,8 @@ object SparkStreaming01_WordCount {
         //  StreamingContext创建时，需要传递两个参数
         //  第一个参数表示环境配置
         //  第二个参数表示批处理的周期（采集周期）
-        val sparkConf: SparkConf = new SparkConf().setMaster("local[*]").setAppName("SparkStreaming")
+        //  SparkStreaming使用核数最少是2个
+        val sparkConf: SparkConf = new SparkConf().setMaster("local[2]").setAppName("SparkStreaming")
         val ssc = new StreamingContext(sparkConf, Seconds(3))
 
         // TODO 执行逻辑
