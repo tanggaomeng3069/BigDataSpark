@@ -1,5 +1,5 @@
 package cn.edu360.xiaoniu.sparkstreaming
-
+/**
 import kafka.common.TopicAndPartition
 import kafka.message.MessageAndMetadata
 import kafka.serializer.StringDecoder
@@ -154,3 +154,4 @@ object KafkaDirectWordCountV2 {
   }
 
 }
+*/

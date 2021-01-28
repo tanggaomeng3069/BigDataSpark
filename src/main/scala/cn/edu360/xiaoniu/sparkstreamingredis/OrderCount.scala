@@ -1,5 +1,5 @@
 package cn.edu360.xiaoniu.sparkstreamingredis
-
+/**
 import cn.edu360.xiaoniu.sparkstreaming.ZkSerializers
 import kafka.common.TopicAndPartition
 import kafka.message.MessageAndMetadata
@@ -147,3 +147,4 @@ object OrderCount {
   }
 
 }
+*/

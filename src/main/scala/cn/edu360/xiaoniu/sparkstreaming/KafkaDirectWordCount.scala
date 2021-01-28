@@ -1,5 +1,6 @@
 package cn.edu360.xiaoniu.sparkstreaming
 
+/*
 import kafka.common.TopicAndPartition
 import kafka.message.MessageAndMetadata
 import kafka.serializer.StringDecoder
@@ -11,16 +12,17 @@ import org.apache.spark.streaming.dstream.{DStream, InputDStream}
 import org.apache.spark.streaming.kafka.{HasOffsetRanges, KafkaUtils, OffsetRange}
 import org.apache.spark.streaming.{Duration, StreamingContext}
 import org.apache.spark.{HashPartitioner, SparkConf, SparkContext}
-
+*/
 /**
   * Author: tanggaomeng
   * Date: 2020/9/22 20:29
   * Describe:
+  *  使用pom.xml旧版本kafka：spark-streaming-kafka-0-8_2.11
   */
 object KafkaDirectWordCount {
 
   def main(args: Array[String]): Unit = {
-
+/**
     // 创建sparkConf
     val conf: SparkConf = new SparkConf().setAppName("KafkaDirectWordCount").setMaster("local[*]")
     // 创建SparkStreaming，并设置间隔时间
@@ -128,6 +130,6 @@ object KafkaDirectWordCount {
     // 优雅的退出
     ssc.awaitTermination()
 
+  */
   }
-
 }

@@ -1,5 +1,5 @@
 package cn.edu360.xiaoniu.sparkstreaming
-
+/**
 import org.apache.spark.streaming.dstream.{DStream, ReceiverInputDStream}
 import org.apache.spark.streaming.kafka.KafkaUtils
 import org.apache.spark.streaming.{Seconds, StreamingContext}
@@ -46,3 +46,4 @@ object kafkaWordCount {
   }
 
 }
+*/
