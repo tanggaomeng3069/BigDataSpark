@@ -25,6 +25,7 @@ object Spark01_RDD_Memory {
         val rdd1: RDD[Int] = sc.makeRDD(list)
         println(rdd1.collect().mkString("-"))
 
+
         sc.stop()
 
     }
